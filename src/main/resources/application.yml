@@ -1,0 +1,12 @@
+server:
+  port: 8084
+  
+spring:
+  application:
+    name: Config-Server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sashibhusanMukhi29/OILC-SUIT
+          clone-on-start: true
